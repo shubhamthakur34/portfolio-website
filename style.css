@@ -1,0 +1,105 @@
+/* Google Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #00ff90;
+  line-height: 1.6;
+}
+
+/* Header/Navbar */
+header {
+  background-color: #000000;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,255,144,0.2);
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #00ff90;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Sections */
+main, section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00ff90;
+  margin-bottom: 15px;
+}
+
+/* Form */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+form input[type="submit"] {
+  background-color: #00ff90;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background-color: white;
+  color: #00ff90;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  color: #00ff90;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main, section {
+    padding: 15px;
+    margin: 30px 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    font-size: 16px;
+  }
+}
